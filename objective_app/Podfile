@@ -2,5 +2,6 @@ platform :ios, '13.0'
 target 'objective_app' do
 
 pod 'MBProgressHUD', '~> 1.2.0'
+pod 'SDWebImage', '~> 4.3.2'
 
 end

@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LXBasicTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,13 +17,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (@available(iOS 13.0, *)) {
+        
+    }else {
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.window.backgroundColor = [UIColor whiteColor];
+        
+        LXBasicTabBarViewController *tabBar = [[LXBasicTabBarViewController alloc] init];
+        self.window.rootViewController = tabBar;
+        
+        [self.window makeKeyAndVisible];
+    }
+    
     return YES;
 }
 
-
 #pragma mark - UISceneSession lifecycle
-
-
 - (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
     // Called when a new scene session is being created.
     // Use this method to select a configuration to create the new scene with.

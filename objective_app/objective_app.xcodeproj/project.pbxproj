@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FA05406257E21E900A3B9C9 /* LXBasicTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05405257E21E900A3B9C9 /* LXBasicTabBarViewController.m */; };
+		4FA0540D257E227100A3B9C9 /* LXBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0540C257E227100A3B9C9 /* LXBasicViewController.m */; };
+		4FA0541A257E234B00A3B9C9 /* LXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05419257E234B00A3B9C9 /* LXHomeViewController.m */; };
+		4FA05423257E236A00A3B9C9 /* LXNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05422257E236A00A3B9C9 /* LXNewsViewController.m */; };
+		4FA0542C257E238400A3B9C9 /* LXMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0542B257E238400A3B9C9 /* LXMusicViewController.m */; };
+		4FA05432257E238D00A3B9C9 /* LXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05431257E238D00A3B9C9 /* LXMeViewController.m */; };
+		4FA05438257E241A00A3B9C9 /* LXBasicNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05437257E241A00A3B9C9 /* LXBasicNavigationViewController.m */; };
+		4FA05450257E24B100A3B9C9 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0543E257E24AF00A3B9C9 /* UIBarButtonItem+Item.m */; };
+		4FA05451257E24B100A3B9C9 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0543F257E24AF00A3B9C9 /* UIColor+Extension.m */; };
+		4FA05452257E24B100A3B9C9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05440257E24AF00A3B9C9 /* UIImage+Extension.m */; };
+		4FA05453257E24B100A3B9C9 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05444257E24AF00A3B9C9 /* NSObject+Additions.m */; };
+		4FA05454257E24B100A3B9C9 /* UIImage+HTRoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05446257E24B000A3B9C9 /* UIImage+HTRoundImage.m */; };
+		4FA05455257E24B100A3B9C9 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05448257E24B000A3B9C9 /* UIImageView+SDWebImage.m */; };
+		4FA05456257E24B100A3B9C9 /* NSString+Estend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05449257E24B000A3B9C9 /* NSString+Estend.m */; };
+		4FA05457257E24B100A3B9C9 /* UIView+TJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0544D257E24B100A3B9C9 /* UIView+TJExtension.m */; };
+		4FA05458257E24B100A3B9C9 /* UIImageView+HTRoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0544E257E24B100A3B9C9 /* UIImageView+HTRoundImage.m */; };
+		4FA0546C257F221200A3B9C9 /* FunAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA0546B257F221100A3B9C9 /* FunAssets.xcassets */; };
+		4FA05476257F29DF00A3B9C9 /* LXFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05475257F29DE00A3B9C9 /* LXFindViewController.m */; };
+		4FA05482257F513700A3B9C9 /* MBExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05481257F513700A3B9C9 /* MBExample.m */; };
+		4FA0548A257F51F200A3B9C9 /* LXRunTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05489257F51F200A3B9C9 /* LXRunTimeViewController.m */; };
 		4FC6AF3A254AC21F00CA2CAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AF39254AC21F00CA2CAC /* AppDelegate.m */; };
 		4FC6AF3D254AC21F00CA2CAC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AF3C254AC21F00CA2CAC /* SceneDelegate.m */; };
 		4FC6AF40254AC21F00CA2CAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AF3F254AC21F00CA2CAC /* ViewController.m */; };
@@ -40,6 +60,45 @@
 		113695BED74360783025BF02 /* Pods-objective_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective_app.debug.xcconfig"; path = "Target Support Files/Pods-objective_app/Pods-objective_app.debug.xcconfig"; sourceTree = "<group>"; };
 		26A3F85BF17ABE2803938260 /* Pods-objective_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective_app.release.xcconfig"; path = "Target Support Files/Pods-objective_app/Pods-objective_app.release.xcconfig"; sourceTree = "<group>"; };
 		4F7E2D95D89B3248A535A141 /* libPods-objective_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objective_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA05404257E21E900A3B9C9 /* LXBasicTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBasicTabBarViewController.h; sourceTree = "<group>"; };
+		4FA05405257E21E900A3B9C9 /* LXBasicTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBasicTabBarViewController.m; sourceTree = "<group>"; };
+		4FA0540B257E227100A3B9C9 /* LXBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBasicViewController.h; sourceTree = "<group>"; };
+		4FA0540C257E227100A3B9C9 /* LXBasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBasicViewController.m; sourceTree = "<group>"; };
+		4FA05418257E234B00A3B9C9 /* LXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHomeViewController.h; sourceTree = "<group>"; };
+		4FA05419257E234B00A3B9C9 /* LXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHomeViewController.m; sourceTree = "<group>"; };
+		4FA05421257E236A00A3B9C9 /* LXNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNewsViewController.h; sourceTree = "<group>"; };
+		4FA05422257E236A00A3B9C9 /* LXNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNewsViewController.m; sourceTree = "<group>"; };
+		4FA0542A257E238400A3B9C9 /* LXMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMusicViewController.h; sourceTree = "<group>"; };
+		4FA0542B257E238400A3B9C9 /* LXMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMusicViewController.m; sourceTree = "<group>"; };
+		4FA05430257E238D00A3B9C9 /* LXMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMeViewController.h; sourceTree = "<group>"; };
+		4FA05431257E238D00A3B9C9 /* LXMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMeViewController.m; sourceTree = "<group>"; };
+		4FA05436257E241A00A3B9C9 /* LXBasicNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBasicNavigationViewController.h; sourceTree = "<group>"; };
+		4FA05437257E241A00A3B9C9 /* LXBasicNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBasicNavigationViewController.m; sourceTree = "<group>"; };
+		4FA0543E257E24AF00A3B9C9 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		4FA0543F257E24AF00A3B9C9 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		4FA05440257E24AF00A3B9C9 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		4FA05441257E24AF00A3B9C9 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		4FA05442257E24AF00A3B9C9 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		4FA05443257E24AF00A3B9C9 /* NSString+Estend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Estend.h"; sourceTree = "<group>"; };
+		4FA05444257E24AF00A3B9C9 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		4FA05445257E24B000A3B9C9 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		4FA05446257E24B000A3B9C9 /* UIImage+HTRoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HTRoundImage.m"; sourceTree = "<group>"; };
+		4FA05447257E24B000A3B9C9 /* UIImageView+HTRoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HTRoundImage.h"; sourceTree = "<group>"; };
+		4FA05448257E24B000A3B9C9 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		4FA05449257E24B000A3B9C9 /* NSString+Estend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Estend.m"; sourceTree = "<group>"; };
+		4FA0544A257E24B000A3B9C9 /* UIImage+HTRoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HTRoundImage.h"; sourceTree = "<group>"; };
+		4FA0544B257E24B100A3B9C9 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		4FA0544C257E24B100A3B9C9 /* UIView+TJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TJExtension.h"; sourceTree = "<group>"; };
+		4FA0544D257E24B100A3B9C9 /* UIView+TJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TJExtension.m"; sourceTree = "<group>"; };
+		4FA0544E257E24B100A3B9C9 /* UIImageView+HTRoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HTRoundImage.m"; sourceTree = "<group>"; };
+		4FA0544F257E24B100A3B9C9 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		4FA0546B257F221100A3B9C9 /* FunAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FunAssets.xcassets; sourceTree = "<group>"; };
+		4FA05474257F29DE00A3B9C9 /* LXFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFindViewController.h; sourceTree = "<group>"; };
+		4FA05475257F29DE00A3B9C9 /* LXFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXFindViewController.m; sourceTree = "<group>"; };
+		4FA05480257F513600A3B9C9 /* MBExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBExample.h; sourceTree = "<group>"; };
+		4FA05481257F513700A3B9C9 /* MBExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBExample.m; sourceTree = "<group>"; };
+		4FA05488257F51F200A3B9C9 /* LXRunTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRunTimeViewController.h; sourceTree = "<group>"; };
+		4FA05489257F51F200A3B9C9 /* LXRunTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRunTimeViewController.m; sourceTree = "<group>"; };
 		4FC6AF35254AC21F00CA2CAC /* objective_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objective_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC6AF38254AC21F00CA2CAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FC6AF39254AC21F00CA2CAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +153,131 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4FA05402257E219700A3B9C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05403257E21B500A3B9C9 /* Base */,
+				4FA0540A257E223800A3B9C9 /* TabBarVc */,
+				4FA0543D257E248200A3B9C9 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4FA05403257E21B500A3B9C9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05404257E21E900A3B9C9 /* LXBasicTabBarViewController.h */,
+				4FA05405257E21E900A3B9C9 /* LXBasicTabBarViewController.m */,
+				4FA05436257E241A00A3B9C9 /* LXBasicNavigationViewController.h */,
+				4FA05437257E241A00A3B9C9 /* LXBasicNavigationViewController.m */,
+				4FA0540B257E227100A3B9C9 /* LXBasicViewController.h */,
+				4FA0540C257E227100A3B9C9 /* LXBasicViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4FA0540A257E223800A3B9C9 /* TabBarVc */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05473257F29B300A3B9C9 /* FindList */,
+				4FA05414257E22F600A3B9C9 /* Home */,
+				4FA05415257E22FE00A3B9C9 /* News */,
+				4FA05416257E230700A3B9C9 /* Music */,
+				4FA05417257E231100A3B9C9 /* Me */,
+			);
+			path = TabBarVc;
+			sourceTree = "<group>";
+		};
+		4FA05414257E22F600A3B9C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05418257E234B00A3B9C9 /* LXHomeViewController.h */,
+				4FA05419257E234B00A3B9C9 /* LXHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FA05415257E22FE00A3B9C9 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05421257E236A00A3B9C9 /* LXNewsViewController.h */,
+				4FA05422257E236A00A3B9C9 /* LXNewsViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		4FA05416257E230700A3B9C9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				4FA0542A257E238400A3B9C9 /* LXMusicViewController.h */,
+				4FA0542B257E238400A3B9C9 /* LXMusicViewController.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		4FA05417257E231100A3B9C9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05430257E238D00A3B9C9 /* LXMeViewController.h */,
+				4FA05431257E238D00A3B9C9 /* LXMeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4FA0543D257E248200A3B9C9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05441257E24AF00A3B9C9 /* NSObject+Additions.h */,
+				4FA05444257E24AF00A3B9C9 /* NSObject+Additions.m */,
+				4FA05443257E24AF00A3B9C9 /* NSString+Estend.h */,
+				4FA05449257E24B000A3B9C9 /* NSString+Estend.m */,
+				4FA0544B257E24B100A3B9C9 /* UIBarButtonItem+Item.h */,
+				4FA0543E257E24AF00A3B9C9 /* UIBarButtonItem+Item.m */,
+				4FA0544F257E24B100A3B9C9 /* UIColor+Extension.h */,
+				4FA0543F257E24AF00A3B9C9 /* UIColor+Extension.m */,
+				4FA05445257E24B000A3B9C9 /* UIImage+Extension.h */,
+				4FA05440257E24AF00A3B9C9 /* UIImage+Extension.m */,
+				4FA0544A257E24B000A3B9C9 /* UIImage+HTRoundImage.h */,
+				4FA05446257E24B000A3B9C9 /* UIImage+HTRoundImage.m */,
+				4FA05447257E24B000A3B9C9 /* UIImageView+HTRoundImage.h */,
+				4FA0544E257E24B100A3B9C9 /* UIImageView+HTRoundImage.m */,
+				4FA05442257E24AF00A3B9C9 /* UIImageView+SDWebImage.h */,
+				4FA05448257E24B000A3B9C9 /* UIImageView+SDWebImage.m */,
+				4FA0544C257E24B100A3B9C9 /* UIView+TJExtension.h */,
+				4FA0544D257E24B100A3B9C9 /* UIView+TJExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4FA05473257F29B300A3B9C9 /* FindList */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05486257F51BC00A3B9C9 /* Controller */,
+				4FA05487257F51CB00A3B9C9 /* RunTime */,
+			);
+			path = FindList;
+			sourceTree = "<group>";
+		};
+		4FA05486257F51BC00A3B9C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05480257F513600A3B9C9 /* MBExample.h */,
+				4FA05481257F513700A3B9C9 /* MBExample.m */,
+				4FA05474257F29DE00A3B9C9 /* LXFindViewController.h */,
+				4FA05475257F29DE00A3B9C9 /* LXFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FA05487257F51CB00A3B9C9 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				4FA05488257F51F200A3B9C9 /* LXRunTimeViewController.h */,
+				4FA05489257F51F200A3B9C9 /* LXRunTimeViewController.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
 		4FC6AF2C254AC21F00CA2CAC = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +303,7 @@
 		4FC6AF37254AC21F00CA2CAC /* objective_app */ = {
 			isa = PBXGroup;
 			children = (
+				4FA05402257E219700A3B9C9 /* Classes */,
 				4FC6AF38254AC21F00CA2CAC /* AppDelegate.h */,
 				4FC6AF39254AC21F00CA2CAC /* AppDelegate.m */,
 				4FC6AF3B254AC21F00CA2CAC /* SceneDelegate.h */,
@@ -127,6 +312,7 @@
 				4FC6AF3F254AC21F00CA2CAC /* ViewController.m */,
 				4FC6AF41254AC21F00CA2CAC /* Main.storyboard */,
 				4FC6AF44254AC22300CA2CAC /* Assets.xcassets */,
+				4FA0546B257F221100A3B9C9 /* FunAssets.xcassets */,
 				4FC6AF46254AC22300CA2CAC /* LaunchScreen.storyboard */,
 				4FC6AF49254AC22300CA2CAC /* Info.plist */,
 				4FC6AF4A254AC22300CA2CAC /* main.m */,
@@ -224,6 +410,7 @@
 		4FC6AF2D254AC21F00CA2CAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LX;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					4FC6AF34254AC21F00CA2CAC = {
@@ -266,6 +453,7 @@
 			files = (
 				4FC6AF48254AC22300CA2CAC /* LaunchScreen.storyboard in Resources */,
 				4FC6AF45254AC22300CA2CAC /* Assets.xcassets in Resources */,
+				4FA0546C257F221200A3B9C9 /* FunAssets.xcassets in Resources */,
 				4FC6AF43254AC21F00CA2CAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,9 +504,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA05453257E24B100A3B9C9 /* NSObject+Additions.m in Sources */,
+				4FA05457257E24B100A3B9C9 /* UIView+TJExtension.m in Sources */,
+				4FA05438257E241A00A3B9C9 /* LXBasicNavigationViewController.m in Sources */,
+				4FA05456257E24B100A3B9C9 /* NSString+Estend.m in Sources */,
+				4FA05452257E24B100A3B9C9 /* UIImage+Extension.m in Sources */,
+				4FA05450257E24B100A3B9C9 /* UIBarButtonItem+Item.m in Sources */,
+				4FA05454257E24B100A3B9C9 /* UIImage+HTRoundImage.m in Sources */,
+				4FA05458257E24B100A3B9C9 /* UIImageView+HTRoundImage.m in Sources */,
 				4FC6AF40254AC21F00CA2CAC /* ViewController.m in Sources */,
+				4FA0548A257F51F200A3B9C9 /* LXRunTimeViewController.m in Sources */,
+				4FA05423257E236A00A3B9C9 /* LXNewsViewController.m in Sources */,
+				4FA05476257F29DF00A3B9C9 /* LXFindViewController.m in Sources */,
+				4FA05482257F513700A3B9C9 /* MBExample.m in Sources */,
+				4FA0541A257E234B00A3B9C9 /* LXHomeViewController.m in Sources */,
+				4FA05451257E24B100A3B9C9 /* UIColor+Extension.m in Sources */,
+				4FA05406257E21E900A3B9C9 /* LXBasicTabBarViewController.m in Sources */,
+				4FA05432257E238D00A3B9C9 /* LXMeViewController.m in Sources */,
+				4FA05455257E24B100A3B9C9 /* UIImageView+SDWebImage.m in Sources */,
 				4FC6AF3A254AC21F00CA2CAC /* AppDelegate.m in Sources */,
+				4FA0540D257E227100A3B9C9 /* LXBasicViewController.m in Sources */,
 				4FC6AF4B254AC22300CA2CAC /* main.m in Sources */,
+				4FA0542C257E238400A3B9C9 /* LXMusicViewController.m in Sources */,
 				4FC6AF3D254AC21F00CA2CAC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
