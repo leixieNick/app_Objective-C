@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F521894257F5E2A00D4A560 /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F521893257F5E2A00D4A560 /* RuntimeObject.m */; };
+		4F52189D257F620300D4A560 /* RuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F52189C257F620300D4A560 /* RuntimeTest.m */; };
+		4F5218AC257F697F00D4A560 /* RuntimeSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5218AB257F697F00D4A560 /* RuntimeSwizzling.m */; };
 		4FA05406257E21E900A3B9C9 /* LXBasicTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05405257E21E900A3B9C9 /* LXBasicTabBarViewController.m */; };
 		4FA0540D257E227100A3B9C9 /* LXBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0540C257E227100A3B9C9 /* LXBasicViewController.m */; };
 		4FA0541A257E234B00A3B9C9 /* LXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA05419257E234B00A3B9C9 /* LXHomeViewController.m */; };
@@ -59,6 +62,12 @@
 /* Begin PBXFileReference section */
 		113695BED74360783025BF02 /* Pods-objective_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective_app.debug.xcconfig"; path = "Target Support Files/Pods-objective_app/Pods-objective_app.debug.xcconfig"; sourceTree = "<group>"; };
 		26A3F85BF17ABE2803938260 /* Pods-objective_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objective_app.release.xcconfig"; path = "Target Support Files/Pods-objective_app/Pods-objective_app.release.xcconfig"; sourceTree = "<group>"; };
+		4F521892257F5E2A00D4A560 /* RuntimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeObject.h; sourceTree = "<group>"; };
+		4F521893257F5E2A00D4A560 /* RuntimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeObject.m; sourceTree = "<group>"; };
+		4F52189B257F620300D4A560 /* RuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeTest.h; sourceTree = "<group>"; };
+		4F52189C257F620300D4A560 /* RuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTest.m; sourceTree = "<group>"; };
+		4F5218AA257F697F00D4A560 /* RuntimeSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeSwizzling.h; sourceTree = "<group>"; };
+		4F5218AB257F697F00D4A560 /* RuntimeSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeSwizzling.m; sourceTree = "<group>"; };
 		4F7E2D95D89B3248A535A141 /* libPods-objective_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objective_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA05404257E21E900A3B9C9 /* LXBasicTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBasicTabBarViewController.h; sourceTree = "<group>"; };
 		4FA05405257E21E900A3B9C9 /* LXBasicTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBasicTabBarViewController.m; sourceTree = "<group>"; };
@@ -272,6 +281,12 @@
 		4FA05487257F51CB00A3B9C9 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
+				4F521892257F5E2A00D4A560 /* RuntimeObject.h */,
+				4F521893257F5E2A00D4A560 /* RuntimeObject.m */,
+				4F52189B257F620300D4A560 /* RuntimeTest.h */,
+				4F52189C257F620300D4A560 /* RuntimeTest.m */,
+				4F5218AA257F697F00D4A560 /* RuntimeSwizzling.h */,
+				4F5218AB257F697F00D4A560 /* RuntimeSwizzling.m */,
 				4FA05488257F51F200A3B9C9 /* LXRunTimeViewController.h */,
 				4FA05489257F51F200A3B9C9 /* LXRunTimeViewController.m */,
 			);
@@ -506,10 +521,12 @@
 			files = (
 				4FA05453257E24B100A3B9C9 /* NSObject+Additions.m in Sources */,
 				4FA05457257E24B100A3B9C9 /* UIView+TJExtension.m in Sources */,
+				4F5218AC257F697F00D4A560 /* RuntimeSwizzling.m in Sources */,
 				4FA05438257E241A00A3B9C9 /* LXBasicNavigationViewController.m in Sources */,
 				4FA05456257E24B100A3B9C9 /* NSString+Estend.m in Sources */,
 				4FA05452257E24B100A3B9C9 /* UIImage+Extension.m in Sources */,
 				4FA05450257E24B100A3B9C9 /* UIBarButtonItem+Item.m in Sources */,
+				4F52189D257F620300D4A560 /* RuntimeTest.m in Sources */,
 				4FA05454257E24B100A3B9C9 /* UIImage+HTRoundImage.m in Sources */,
 				4FA05458257E24B100A3B9C9 /* UIImageView+HTRoundImage.m in Sources */,
 				4FC6AF40254AC21F00CA2CAC /* ViewController.m in Sources */,
@@ -525,6 +542,7 @@
 				4FC6AF3A254AC21F00CA2CAC /* AppDelegate.m in Sources */,
 				4FA0540D257E227100A3B9C9 /* LXBasicViewController.m in Sources */,
 				4FC6AF4B254AC22300CA2CAC /* main.m in Sources */,
+				4F521894257F5E2A00D4A560 /* RuntimeObject.m in Sources */,
 				4FA0542C257E238400A3B9C9 /* LXMusicViewController.m in Sources */,
 				4FC6AF3D254AC21F00CA2CAC /* SceneDelegate.m in Sources */,
 			);
