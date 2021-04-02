@@ -20,7 +20,7 @@
     self.view.backgroundColor = UIColor.redColor;
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    [hud hideAnimated:YES afterDelay:5.0];
+    [hud hide:YES afterDelay:5.0];
 }
 
 @end

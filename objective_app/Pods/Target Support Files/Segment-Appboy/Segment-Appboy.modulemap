@@ -1,0 +1,6 @@
+framework module Segment_Appboy {
+  umbrella header "Segment-Appboy-umbrella.h"
+
+  export *
+  module * { export * }
+}
